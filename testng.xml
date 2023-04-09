@@ -4,12 +4,18 @@
   <test name="Test" >
     <classes>
       <class name="com.test.api.TestPostTest"/>
+      <class name="com.test.api.TestTestPost"/>
+     
     </classes>
      </test> <!-- Test -->
-     
       <test name="Test2" >
     <classes>    
       <class name="com.allure.NewTest"/>
+    </classes>
+	  </test> <!-- Test -->
+	  <test name="Test3" >
+    <classes>    
+       <class name="com.test.api.TestGet"/>
     </classes>
 	  </test> <!-- Test -->
 </suite> <!-- Suite -->
