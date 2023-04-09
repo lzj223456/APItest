@@ -31,14 +31,14 @@ public class NewTest {
     @Story("Story类似三级目录")
     @Test(description = "测试用例1")
     public void awtApi001_001(){
-        System.out.println("test");
+        System.out.println("test1");
         step("第2步",2);
 
     }
     @Story("Story类似三级目录")
     @Test(description = "测试用例2")
     public void awtApi001_002(){
-        System.out.println("test");
+        System.out.println("test2");
         step("第3步",3);
     }
 
